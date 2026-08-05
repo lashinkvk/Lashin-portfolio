@@ -541,7 +541,7 @@ button[type="button"]:hover {
     }
 
     #home {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 4rem;
         text-align: center;
         padding-top: 5rem;
