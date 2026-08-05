@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/icon.png">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+(function () {
+    emailjs.init({
+        publicKey: "8Du_lEHz_2uqkMOiQ"
+    });
+})();
+</script>
+
+<script src="/script.js"></script>
+
+    <title>Lashin E</title> 
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img class="logoicon" src="/icon.png" alt="Page logo">&nbsp; Lashin E</a>
+        
+        <!-- CSS-Driven Mobile Menu Toggle Trigger -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+        <label for="menu-toggle" id="menu-icon"><i class="fa-solid fa-bars"></i></label>
+        
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about-me">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="/Portfolio Website/assets/Lashin ATS.pdf">Resume</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-img">
+            <img src="/assets/main.jpeg" alt="profile picture">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Lashin E</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/lashine"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/lashinkvk"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/lashin_kvk"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/lashin_kvk"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.youtube.com/@lashinkvk"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Home section -->
+
+    <section id="about-me">
+        <h2 class="heading">About Me</h2>
+        <p class="p1">I am <span>Lashin E</span>, a passionate and detail-oriented <span>Bachelor of Computer Applications (BCA)</span> graduate with a strong interest in Software development and modern web technologies. I enjoy building responsive, user-friendly web applications and continuously improving my skills through hands-on projects</p>
+        <p class="p2">I have experience working with technologies such as <span>HTML, CSS, JavaScript, React.js</span>
+
+            <!-- , and basic backend integration using tools like <span>Node.js and Express</span> -->
+
+            . I am also familiar with version control systems like <span>Git</span> and <span>Github</span>, as well as development environments such as <span>VS Code</span>.</p>
+        <p class="p3">I am highly motivated to learn, adapt, and grow in a professional environment. I enjoy solving real-world problems through code and collaborating with others to create impactful digital solutions.</p>
+        <p class="p4">I am currently seeking opportunities where I can apply my skills, gain practical experience, and contribute to innovative projects in software development.</p>
+    </section>
+
+    <!-- End of About Me section -->
+
+    <section id="skill">
+        <h2 class="skill-heading">Skills</h2>
+        
+        <h2 class="skill-subheading">Development</h2>
+        <div class="cards">
+            <div class="card"><div class="icon">🌐</div><h3>HTML</h3></div>
+            <div class="card"><div class="icon">🎨</div><h3>CSS</h3></div>
+            <div class="card"><div class="icon">⚡</div><h3>JavaScript</h3></div>
+            <div class="card"><div class="icon">⚛️</div><h3>React</h3></div>
+            <!-- <div class="card"><div class="icon">🐍</div><h3>Python</h3></div>
+            <div class="card"><div class="icon">📱</div><h3>Flutter</h3></div> -->
+        </div>
+
+        <div class="section">
+            <h2 class="skill-subheading">Tools</h2>
+            <div class="cards">
+                <div class="card"><div class="icon">🔧</div><h3>Git</h3></div>
+                <div class="card"><div class="icon">💻</div><h3>GitHub</h3></div>
+                <div class="card"><div class="icon">📝</div><h3>VS Code</h3></div>
+                <div class="card"><div class="icon">🤖</div><h3>Android Studio</h3></div>
+                <!-- <div class="card"><div class="icon">💻</div><h3>PyCharm</h3></div> -->
+            </div>
+        </div>
+    </section> 
+
+    <!-- End of Skills section -->
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <!-- <p class="subtitle">Let's build something amazing together</p> -->
+        
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label>Your Name</label>
+                </div>
+                
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label>Your Email</label>
+                </div>
+                
+                <div class="input-group">
+                    <textarea rows="4" id="message" required></textarea>
+                    <label>Your Message</label>
+                </div>
+                
+                <button type="button" onclick="send(event)">Send Message</button>
+                
+
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Email: lashinachuthodika@gmail.com</p>
+                    <p>Phone: +91 9562881483</p>
+                    <p>Location: Kerala, India</p>
+                </div>
+            </form>
+        </div>
+    </section>
+      
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-social-icons">
+                <a href="https://www.linkedin.com/in/lashine"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/lashinkvk"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/lashin_kvk"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/lashin_kvk"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.youtube.com/@lashinkvk"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <p class="footer-text">© 2026 Lashin E | All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
