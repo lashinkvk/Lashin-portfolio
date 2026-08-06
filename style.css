@@ -18,9 +18,9 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
-    /* background-color: #384959; */
     color: white;
     background: url(/assets/1.png);
+    /* background-color: #384959; */
 }
 
 header {
@@ -29,13 +29,13 @@ header {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    /* background-color: #384959; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(10px);
+    /* background-color: #384959; */
     
 }
 
@@ -97,6 +97,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 10rem;
+    margin-top: 8rem;
     /* background-color: #384959; */
     
 }
@@ -197,13 +198,13 @@ section {
 
 .typing-text span::after {
     content: "";
-    /* background-color: #384959; */
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
     border-left: 3px solid #384959;
     right: -8;
     animation: cursor 0.6s infinite;
+    /* background-color: #384959; */
 }
 
 @keyframes cursor {
@@ -236,6 +237,7 @@ section {
 }
 
 /* About Me Section */
+
 /* #about-me {
     background-color: #384959;
 } */
@@ -263,6 +265,7 @@ section {
 }
 
 /* Skills Section */
+
 /* #skill {
     background-color: #384959;
 } */
@@ -333,6 +336,7 @@ section {
 }
 
 /* Contact Section */
+
 /* #contact {
     background-color: #384959;
 } */
@@ -440,6 +444,7 @@ button[type="button"]:hover {
 }
 
 /* Footer Section */
+
 .footer {
     background: #1b212b;
     padding: 40px 20px;
