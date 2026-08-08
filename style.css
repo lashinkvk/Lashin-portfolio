@@ -335,6 +335,11 @@ section {
     color: #38bdf8;
 }
 
+.icon-img {
+    height: 50px;
+    width: 50px;
+}
+
 /* Contact Section */
 
 /* #contact {
