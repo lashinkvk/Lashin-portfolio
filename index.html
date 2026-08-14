@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/icon.png">
@@ -33,98 +36,412 @@
             <a href="#home" class="active">Home</a>
             <a href="#about-me">About</a>
             <a href="#skill">Skills</a>
+            <!-- <a href="#gallery">Gallery</a> -->
             <a href="#contact">Contact</a>
             <a href="/assets/Lashin ATS.pdf">Resume</a>
         </nav>
     </header>
 
     <section id="home">
-        <div class="home-img">
-            <img src="/assets/main.jpeg" alt="profile picture" loading="lazy">
+        <div class="home-img-wrapper">
+            <div class="home-img-halo"></div>
+            <div class="home-img">
+                <img src="/assets/main.jpeg" alt="profile picture" loading="lazy">
+            </div>
         </div>
         <div class="home-content">
+            <div class="status-pill">
+                <span class="status-dot"></span>
+                <span>Available for Opportunities</span>
+            </div>
             <h1>Hi, It's <span>Lashin E</span></h1>
             <h3 class="typing-text">I'm a <span></span></h3>
+            <p class="home-bio">
+                Passionate software developer specializing in building modern, responsive, and impactful web solutions.
+            </p>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/lashine"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/lashinkvk"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/lashin_kvk"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://x.com/lashin_kvk"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.youtube.com/@lashinkvk"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/lashine" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/lashinkvk" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/lashin_kvk" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/lashin_kvk" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.youtube.com/@lashinkvk" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="home-btn-group">
+                <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Let's Talk</a>
+                <a href="/assets/Lashin ATS.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-arrow-down"></i> Resume</a>
             </div>
         </div>
     </section>
 
-
-
-    <div class="gallery-wrapper">
-
-        <div class="container-items">
-
-            <img class="item-color" src="/image-gallery/1.jpeg" alt="Gallery image 1" loading="lazy">
-            <!-- <img class="item-color" src="/image-gallery/2.jpeg" alt="Gallery image 2" loading="lazy"> -->
-            <img class="item-color" src="/image-gallery/3.jpeg" alt="Gallery image 3" loading="lazy">
-            <img class="item-color" src="/image-gallery/4.jpeg" alt="Gallery image 4" loading="lazy">
-            <img class="item-color" src="/image-gallery/5.jpeg" alt="Gallery image 5" loading="lazy">
-            <img class="item-color" src="/image-gallery/6.jpeg" alt="Gallery image 6" loading="lazy">
-            <img class="item-color" src="/image-gallery/7.jpeg" alt="Gallery image 7" loading="lazy">
-            <img class="item-color" src="/image-gallery/8.jpeg" alt="Gallery image 8" loading="lazy">
-            <img class="item-color" src="/image-gallery/9.jpeg" alt="Gallery image 9" loading="lazy">
-            <img class="item-color" src="/image-gallery/10.PNG" alt="Gallery image 10" loading="lazy">
-            <img class="item-color" src="/image-gallery/11.jpeg" alt="Gallery image 11" loading="lazy">
-
-        </div>
-
-    </div>
-
     <!-- End of Home section -->
 
     <section id="about-me">
-        <h2 class="heading">About Me</h2>
-        <p class="p1">I am <span>Lashin E</span>, a passionate and detail-oriented <span>Bachelor of Computer Applications (BCA)</span> graduate with a strong interest in Software development and modern web technologies. I enjoy building responsive, user-friendly web applications and continuously improving my skills through hands-on projects</p>
-        <p class="p2">I have experience working with technologies such as <span>HTML, CSS, JavaScript, React.js</span>
+        <div class="section-header-container">
+            <div class="section-pill">
+                <i class="fa-solid fa-user"></i>
+                <span>Get To Know</span>
+            </div>
+            <h2 class="section-heading">About <span>Me</span></h2>
+            <p class="section-description">
+                My background, passion for software development, and continuous learning journey.
+            </p>
+        </div>
+        <div class="about-content-card">
+            <p class="p1">I am <span>Lashin E</span>, a passionate and detail-oriented <span>Bachelor of Computer Applications (BCA)</span> graduate with a strong interest in Software development and modern web technologies. I enjoy building responsive, user-friendly web applications and continuously improving my skills through hands-on projects</p>
+            <p class="p2">I have experience working with technologies such as <span>HTML, CSS, JavaScript, React.js</span>
 
-            <!-- , and basic backend integration using tools like <span>Node.js and Express</span> -->
+                <!-- , and basic backend integration using tools like <span>Node.js and Express</span> -->
 
-            . I am also familiar with version control systems like <span>Git</span> and <span>Github</span>, as well as development environments such as <span>VS Code</span>.</p>
-        <p class="p3">I am highly motivated to learn, adapt, and grow in a professional environment. I enjoy solving real-world problems through code and collaborating with others to create impactful digital solutions.</p>
-        <p class="p4">I am currently seeking opportunities where I can apply my skills, gain practical experience, and contribute to innovative projects in software development.</p>
-        
+                . I am also familiar with version control systems like <span>Git</span> and <span>Github</span>, as well as development environments such as <span>VS Code</span>.</p>
+            <p class="p3">I am highly motivated to learn, adapt, and grow in a professional environment. I enjoy solving real-world problems through code and collaborating with others to create impactful digital solutions.</p>
+            <p class="p4">I am currently seeking opportunities where I can apply my skills, gain practical experience, and contribute to innovative projects in software development.</p>
+        </div>
     </section>
 
     <!-- End of About Me section -->
 
     <section id="skill">
-        <h2 class="skill-heading">Skills</h2>
+        <div class="section-header-container">
+            <div class="section-pill">
+                <i class="fa-solid fa-code"></i>
+                <span>Tech Stack</span>
+            </div>
+            <h2 class="section-heading">Skills &amp; <span>Expertise</span></h2>
+            <p class="section-description">
+                A showcase of technologies, frameworks, and developer tools I specialize in to build clean, responsive, and high-performance digital products.
+            </p>
+        </div>
         
-        <h2 class="skill-subheading">Development</h2>
-        <div class="cards">
-            <div class="card"><div class="icon"><img class="icon-img" src="/assets/html-200.png" alt="html-icon" loading="lazy"></div><h3>HTML</h3></div>
-            <div class="card"><div class="icon"><img class="icon-img" src="/assets/css-200.png" alt="html-icon" loading="lazy"></div><h3>CSS</h3></div>
-            <div class="card"><div class="icon"><img class="icon-img" src="/assets/js-200.png" alt="html-icon" loading="lazy"></div><h3>Javascript</h3></div>
-            <div class="card"><div class="icon"><img class="icon-img" src="/assets/react-200.png" alt="html-icon" loading="lazy"></div><h3>React</h3></div>
-            <div class="card"><div class="icon"><img class="icon-img" src="/assets/bootstrap-200.png" alt="html-icon" loading="lazy"></div><h3>Bootstrap</h3></div>
-            <!-- <div class="card"><div class="icon">🐍</div><h3>Python</h3></div>
-            <div class="card"><div class="icon">📱</div><h3>Flutter</h3></div> -->
+        <!-- Category: Development -->
+        <div class="skill-category">
+            <div class="category-title-wrap">
+                <div class="category-badge-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3 class="skill-subheading">Development</h3>
+                <span class="category-count">5 Technologies</span>
+            </div>
+            <div class="cards">
+                <div class="card" style="--skill-color: #e34f26; --skill-glow: rgba(227, 79, 38, 0.35);">
+                    <div class="card-glow-bg"></div>
+                    <div class="icon">
+                        <img class="icon-img" src="/assets/html-200.png" alt="HTML" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3>HTML</h3>
+                        <span class="skill-tag">Structure</span>
+                    </div>
+                    <div class="skill-progress-bar">
+                        <span class="progress-fill" style="width: 95%;"></span>
+                    </div>
+                </div>
+
+                <div class="card" style="--skill-color: #1572b6; --skill-glow: rgba(21, 114, 182, 0.35);">
+                    <div class="card-glow-bg"></div>
+                    <div class="icon">
+                        <img class="icon-img" src="/assets/css-200.png" alt="CSS" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3>CSS</h3>
+                        <span class="skill-tag">Styling</span>
+                    </div>
+                    <div class="skill-progress-bar">
+                        <span class="progress-fill" style="width: 90%;"></span>
+                    </div>
+                </div>
+
+                <div class="card" style="--skill-color: #f7df1e; --skill-glow: rgba(247, 223, 30, 0.35);">
+                    <div class="card-glow-bg"></div>
+                    <div class="icon">
+                        <img class="icon-img" src="/assets/js-200.png" alt="JavaScript" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3>Javascript</h3>
+                        <span class="skill-tag">Core Logic</span>
+                    </div>
+                    <div class="skill-progress-bar">
+                        <span class="progress-fill" style="width: 85%;"></span>
+                    </div>
+                </div>
+
+                <div class="card" style="--skill-color: #61dafb; --skill-glow: rgba(97, 218, 251, 0.35);">
+                    <div class="card-glow-bg"></div>
+                    <div class="icon">
+                        <img class="icon-img" src="/assets/react-200.png" alt="React" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3>React</h3>
+                        <span class="skill-tag">UI Library</span>
+                    </div>
+                    <div class="skill-progress-bar">
+                        <span class="progress-fill" style="width: 80%;"></span>
+                    </div>
+                </div>
+
+                <div class="card" style="--skill-color: #7952b3; --skill-glow: rgba(121, 82, 179, 0.35);">
+                    <div class="card-glow-bg"></div>
+                    <div class="icon">
+                        <img class="icon-img" src="/assets/bootstrap-200.png" alt="Bootstrap" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3>Bootstrap</h3>
+                        <span class="skill-tag">Responsive UI</span>
+                    </div>
+                    <div class="skill-progress-bar">
+                        <span class="progress-fill" style="width: 85%;"></span>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="section">
-            <h2 class="skill-subheading">Tools</h2>
+        <!-- Category: Tools -->
+        <div class="skill-category">
+            <div class="category-title-wrap">
+                <div class="category-badge-icon"><i class="fa-solid fa-toolbox"></i></div>
+                <h3 class="skill-subheading">Tools</h3>
+                <span class="category-count">4 Tools</span>
+            </div>
             <div class="cards">
-                <div class="card"><div class="icon"><img class="icon-img" src="/assets/git-200.png" alt="html-icon" loading="lazy"></div><h3>Git</h3></div>
-                <div class="card"><div class="icon"><img class="icon-img" src="/assets/github-200.png" alt="html-icon" loading="lazy"></div><h3>Github</h3></div>
-                <div class="card"><div class="icon"><img class="icon-img" src="/assets/vs-200.png" alt="html-icon" loading="lazy"></div><h3>VS Code</h3></div>
-                <div class="card"><div class="icon"><img class="icon-img" src="/assets/Android-Studio-200.png" alt="html-icon" loading="lazy"></div><h3>Android Studio</h3></div>
-                <!-- <div class="card"><div class="icon">💻</div><h3>PyCharm</h3></div> -->
+                <div class="card" style="--skill-color: #f05032; --skill-glow: rgba(240, 80, 50, 0.35);">
+                    <div class="card-glow-bg"></div>
+                    <div class="icon">
+                        <img class="icon-img" src="/assets/git-200.png" alt="Git" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3>Git</h3>
+                        <span class="skill-tag">Version Control</span>
+                    </div>
+                    <div class="skill-progress-bar">
+                        <span class="progress-fill" style="width: 88%;"></span>
+                    </div>
+                </div>
+
+                <div class="card" style="--skill-color: #e6edf3; --skill-glow: rgba(230, 237, 243, 0.35);">
+                    <div class="card-glow-bg"></div>
+                    <div class="icon">
+                        <img class="icon-img" src="/assets/github-200.png" alt="GitHub" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3>Github</h3>
+                        <span class="skill-tag">Collaboration</span>
+                    </div>
+                    <div class="skill-progress-bar">
+                        <span class="progress-fill" style="width: 85%;"></span>
+                    </div>
+                </div>
+
+                <div class="card" style="--skill-color: #007acc; --skill-glow: rgba(0, 122, 204, 0.35);">
+                    <div class="card-glow-bg"></div>
+                    <div class="icon">
+                        <img class="icon-img" src="/assets/vs-200.png" alt="VS Code" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3>VS Code</h3>
+                        <span class="skill-tag">Code Editor</span>
+                    </div>
+                    <div class="skill-progress-bar">
+                        <span class="progress-fill" style="width: 92%;"></span>
+                    </div>
+                </div>
+
+                <div class="card" style="--skill-color: #3ddc84; --skill-glow: rgba(61, 220, 132, 0.35);">
+                    <div class="card-glow-bg"></div>
+                    <div class="icon">
+                        <img class="icon-img" src="/assets/Android-Studio-200.png" alt="Android Studio" loading="lazy">
+                    </div>
+                    <div class="card-info">
+                        <h3>Android Studio</h3>
+                        <span class="skill-tag">App Environment</span>
+                    </div>
+                    <div class="skill-progress-bar">
+                        <span class="progress-fill" style="width: 75%;"></span>
+                    </div>
+                </div>
             </div>
         </div>
     </section> 
 
     <!-- End of Skills section -->
 
+    <!-- Gallery Section (Temporarily Commented Out)
+    <section id="gallery">
+        <div class="section-header-container">
+            <div class="section-pill">
+                <i class="fa-solid fa-camera-retro"></i>
+                <span>Memories &amp; Moments</span>
+            </div>
+            <h2 class="section-heading">Visual <span>Highlights</span></h2>
+            <p class="section-description">
+                A visual glimpse into my journey, campus milestones, tech explorations, and memorable experiences.
+            </p>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-card" data-index="0" data-title="Campus &amp; Journey" data-tag="Highlights">
+                <div class="gallery-img-wrapper">
+                    <img src="/image-gallery/1.jpeg" alt="Campus and journey highlight" loading="lazy">
+                </div>
+                <div class="gallery-overlay">
+                    <div class="overlay-info">
+                        <span class="gallery-tag">Highlights</span>
+                        <h4>Campus &amp; Journey</h4>
+                    </div>
+                    <div class="gallery-zoom-badge"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-index="1" data-title="Tech &amp; Learning" data-tag="Moments">
+                <div class="gallery-img-wrapper">
+                    <img src="/image-gallery/3.jpeg" alt="Tech and learning moment" loading="lazy">
+                </div>
+                <div class="gallery-overlay">
+                    <div class="overlay-info">
+                        <span class="gallery-tag">Moments</span>
+                        <h4>Tech &amp; Learning</h4>
+                    </div>
+                    <div class="gallery-zoom-badge"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-index="2" data-title="Creative Vibes" data-tag="Experience">
+                <div class="gallery-img-wrapper">
+                    <img src="/image-gallery/4.jpeg" alt="Creative vibes photo" loading="lazy">
+                </div>
+                <div class="gallery-overlay">
+                    <div class="overlay-info">
+                        <span class="gallery-tag">Experience</span>
+                        <h4>Creative Vibes</h4>
+                    </div>
+                    <div class="gallery-zoom-badge"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-index="3" data-title="Special Moments" data-tag="Milestones">
+                <div class="gallery-img-wrapper">
+                    <img src="/image-gallery/5.jpeg" alt="Special milestone moment" loading="lazy">
+                </div>
+                <div class="gallery-overlay">
+                    <div class="overlay-info">
+                        <span class="gallery-tag">Milestones</span>
+                        <h4>Special Moments</h4>
+                    </div>
+                    <div class="gallery-zoom-badge"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-index="4" data-title="Events &amp; Meetups" data-tag="Memories">
+                <div class="gallery-img-wrapper">
+                    <img src="/image-gallery/6.jpeg" alt="Events and meetups" loading="lazy">
+                </div>
+                <div class="gallery-overlay">
+                    <div class="overlay-info">
+                        <span class="gallery-tag">Memories</span>
+                        <h4>Events &amp; Meetups</h4>
+                    </div>
+                    <div class="gallery-zoom-badge"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-index="5" data-title="College Life" data-tag="Journey">
+                <div class="gallery-img-wrapper">
+                    <img src="/image-gallery/7.jpeg" alt="College life memory" loading="lazy">
+                </div>
+                <div class="gallery-overlay">
+                    <div class="overlay-info">
+                        <span class="gallery-tag">Journey</span>
+                        <h4>College Life</h4>
+                    </div>
+                    <div class="gallery-zoom-badge"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-index="6" data-title="Memorable Days" data-tag="Highlights">
+                <div class="gallery-img-wrapper">
+                    <img src="/image-gallery/8.jpeg" alt="Memorable days highlight" loading="lazy">
+                </div>
+                <div class="gallery-overlay">
+                    <div class="overlay-info">
+                        <span class="gallery-tag">Highlights</span>
+                        <h4>Memorable Days</h4>
+                    </div>
+                    <div class="gallery-zoom-badge"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-index="7" data-title="Achievements" data-tag="Moments">
+                <div class="gallery-img-wrapper">
+                    <img src="/image-gallery/9.jpeg" alt="Achievements and success" loading="lazy">
+                </div>
+                <div class="gallery-overlay">
+                    <div class="overlay-info">
+                        <span class="gallery-tag">Moments</span>
+                        <h4>Achievements</h4>
+                    </div>
+                    <div class="gallery-zoom-badge"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-index="8" data-title="Snapshot Moment" data-tag="Milestones">
+                <div class="gallery-img-wrapper">
+                    <img src="/image-gallery/10.PNG" alt="Snapshot milestone" loading="lazy">
+                </div>
+                <div class="gallery-overlay">
+                    <div class="overlay-info">
+                        <span class="gallery-tag">Milestones</span>
+                        <h4>Snapshot Moment</h4>
+                    </div>
+                    <div class="gallery-zoom-badge"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-index="9" data-title="Friendship &amp; Fun" data-tag="Journey">
+                <div class="gallery-img-wrapper">
+                    <img src="/image-gallery/11.jpeg" alt="Friendship and fun memory" loading="lazy">
+                </div>
+                <div class="gallery-overlay">
+                    <div class="overlay-info">
+                        <span class="gallery-tag">Journey</span>
+                        <h4>Friendship &amp; Fun</h4>
+                    </div>
+                    <div class="gallery-zoom-badge"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="gallery-lightbox" class="gallery-lightbox" aria-hidden="true">
+        <div class="lightbox-backdrop" onclick="closeLightbox()"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close Lightbox">&times;</button>
+            <button class="lightbox-nav lightbox-prev" onclick="prevLightboxImage()" aria-label="Previous image">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="lightbox-image-wrapper">
+                <img id="lightbox-img" src="/image-gallery/1.jpeg" alt="Enlarged photo">
+                <div class="lightbox-caption">
+                    <div class="caption-text-wrap">
+                        <span id="lightbox-tag" class="gallery-tag">Highlight</span>
+                        <h3 id="lightbox-title">Photo Title</h3>
+                    </div>
+                    <span id="lightbox-counter" class="lightbox-counter">1 / 10</span>
+                </div>
+            </div>
+            <button class="lightbox-nav lightbox-next" onclick="nextLightboxImage()" aria-label="Next image">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+    End of Gallery section -->
+
     <section id="contact">
-        <h1>Contact Me</h1>
-        <!-- <p class="subtitle">Let's build something amazing together</p> -->
+        <div class="section-header-container">
+            <div class="section-pill">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Get In Touch</span>
+            </div>
+            <h2 class="section-heading">Contact <span>Me</span></h2>
+            <p class="section-description">
+                Have a question, an opportunity, or want to collaborate on a project? Feel free to send a message!
+            </p>
+        </div>
         
         <div class="contact-container">
             <form class="contact-form">
@@ -159,15 +476,22 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-social-icons">
-                <a href="https://www.linkedin.com/in/lashine"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/lashinkvk"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/lashin_kvk"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://x.com/lashin_kvk"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.youtube.com/@lashinkvk"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/lashine" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/lashinkvk" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/lashin_kvk" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/lashin_kvk" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.youtube.com/@lashinkvk" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
             </div>
-            <p class="footer-text">© 2026 Lashin E | All Rights Reserved</p>
-            <p class="footer-text">Location: Kerala, India</p>
+
+            <div class="footer-bottom">
+                <p class="footer-text">&copy; 2026 Lashin E | All Rights Reserved</p>
+                <p class="footer-location"><i class="fa-solid fa-location-dot"></i> Kerala, India</p>
+            </div>
         </div>
+        
+        <a href="#home" class="back-to-top" aria-label="Back to top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
     </footer>
 
     <!-- Custom Alert -->
