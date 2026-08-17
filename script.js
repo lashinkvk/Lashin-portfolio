@@ -283,4 +283,4 @@ function prevLightboxImage() {
     currentGalleryIndex = (currentGalleryIndex - 1 + galleryData.length) % galleryData.length;
     updateLightboxContent();
 }
-
+
